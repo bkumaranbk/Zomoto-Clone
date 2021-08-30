@@ -3,9 +3,48 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Metropolis;
+    font-family: 'Poppins', sans-serif;
 }
 
 a{
     color: unset;
+}
+
+header{
+    background-image: url("../images/hero.png");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+/* Nav Bar Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+    flex-direction: row;
+    margin: 0px auto;
+    width: 90%;
+
+}
+
+nav .nav__item{
+    color: white;
+    margin: 0px 10px;
+
+}
+
+nav div.container{
+    display: flex;
+
+}
+
+nav div.nav__item.app{
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+nav div.container.item{
+    font-size: 20px;
 }
