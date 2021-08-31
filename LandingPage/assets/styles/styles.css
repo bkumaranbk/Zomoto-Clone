@@ -160,7 +160,7 @@ section.nearby div.box:hover {
 /* App section */
 
 section.app{
-    height: 65vh;
+    height: 60vh;
     background-color: #FEFBF6;
 
 }
@@ -245,4 +245,46 @@ section.app div.form div.download div img{
     max-width: 150px;
     display: inline-block;
     margin: 5px 5px;
+}
+
+/* Section Option */
+
+section.options{
+    min-height: 60vh;
+}
+
+section.options div.container{
+    width: 90%;
+    margin: 30px auto;
+
+}
+
+section.options div.container h2{
+    font-size: 2rem;
+}
+
+section.options div.container h3{
+    font-size: 1.6rem;
+}
+
+section.options div.container div{
+   margin-top: 30px;
+}
+
+section.options div.container div ul{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+section.options div.container div ul li{
+    margin: 3px 10px;
+}
+
+
+footer.footer{
+    height: 25vh;
+    background-color: hotpink;
 }
