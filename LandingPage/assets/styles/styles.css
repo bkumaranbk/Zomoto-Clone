@@ -177,3 +177,72 @@ section.app div.container img{
     display: block;
     max-width: 250px;
 }
+
+section.app div.container div.form{
+    max-width: 485px;
+
+}
+
+section.app div.container div.form h1{
+    font-size: 2.9rem;
+    font-weight: 600;
+}
+
+section.app div.container div.form small{
+   display: block;
+   font-size: 1.1rem;
+   font-weight: 200;
+   color: #393737;
+   margin: 20px 0px;
+}
+
+/* Radio button Styles */
+
+/* Tommorow */
+
+/* ------------------- */
+
+section.app div.input{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+}
+section.app div.input input{
+    flex-grow: 70;
+    background-color: #fff;
+    border: 1px solid #a5a2a2;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 100%;
+    color: #a5a2a2;
+    margin: 0px 10px 0px 0px;
+}
+
+section.app div.input button{
+    flex-grow: 20;
+    background-color: #ED5A6B;
+    font-size: 1.0rem;
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+    color: #ffffff;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+
+section.app div.form div.download{
+    margin: 20px 0px;
+    font-weight: 300;
+    color: rgb(107, 105, 105);
+}
+section.app div.form div.download div{
+    margin: 5px;
+}
+section.app div.form div.download div img{
+    max-width: 150px;
+    display: inline-block;
+    margin: 5px 5px;
+}
